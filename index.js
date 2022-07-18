@@ -81,6 +81,7 @@ const getData = (link) => {
         });
       });
       console.log(frameDataObj);
+      return frameDataObj;
       //   =======================
     });
   } catch (error) {
@@ -88,4 +89,4 @@ const getData = (link) => {
   }
 };
 
-getData("https://dustloop.com/w/DBFZ/SSB_Gogeta/Frame_Data");
+getData("https://dustloop.com/w/DNFD/Hitman/Frame_Data");
